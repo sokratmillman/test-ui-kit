@@ -23,13 +23,13 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
-    ]
+    ],
   },
   devtool: prod ? undefined : 'source-map',
   plugins: [
-    new HtmlWebpackPlugin({
-      template: 'index.html',
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: 'index.html',
+    // }),
     new MiniCssExtractPlugin(),
   ],
 };
