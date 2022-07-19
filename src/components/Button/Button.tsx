@@ -11,7 +11,7 @@ export function Button(props: { [x: string]: any; children: any; addonAfter: any
 
   return (
     <button
-      type="submit"
+      type="button"
       {...mergeProps(buttonProps, hoverProps)}
       ref={buttonRef}
       className="Button"
