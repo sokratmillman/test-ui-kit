@@ -37,7 +37,7 @@
   }
   
   .Button[data-hovered="true"] {
-    background-color: violet;
+    background-color: rgb(180, 76, 180);
   }
   
   .Button[data-pressed="true"] {
