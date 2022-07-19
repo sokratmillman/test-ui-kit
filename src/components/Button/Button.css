@@ -41,6 +41,6 @@
   }
   
   .Button[data-pressed="true"] {
-    background-color: var(--blue-gray-300);
+    background-color: gray;
   }
   
