@@ -24,7 +24,7 @@
   
   .Button[data-disabled="true"] {
     cursor: not-allowed;
-    background-color: var(--blue-gray-50);
+    background-color: rgb(129, 129, 202);
     color: var(--black-400);
   }
   
