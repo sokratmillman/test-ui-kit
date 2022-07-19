@@ -1,6 +1,6 @@
 {
   "name": "sokratmillman-test-ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UI kit built with @use-platform/react",
   "main": "dist/index.js",
   "scripts": {
