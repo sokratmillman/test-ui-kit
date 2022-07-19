@@ -2,7 +2,7 @@
   "name": "sokratmillman-test-ui-kit",
   "version": "1.1.1",
   "description": "UI kit built with @use-platform/react",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack serve --port 3000",
     "build": "NODE_ENV=production webpack",
@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook",
     "prepare": "husky install",
     "lint": "npx eslint .",
-    "semantic-release": "npx semantic-release --branches main"
+    "semantic-release": "npx semantic-release"
   },
   "author": "sokratmillman",
   "license": "ISC",
