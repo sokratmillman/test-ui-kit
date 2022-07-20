@@ -1,5 +1,5 @@
 {
-  "branches": [{"name: "main", "channel": "next"}, {"name": "next", "channel": "pre/rc", "prerelease": "rc"}],
+  "branches": [{"name": "main", "channel": "next"}, {"name": "next", "channel": "pre/rc", "prerelease": "rc"}],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
