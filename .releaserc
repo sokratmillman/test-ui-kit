@@ -1,3 +1,13 @@
 {
-  "branches": ["main", "next"],
+  "branches": [{"name: "main", "channel": "next"}, {"name": "next", "channel": "pre/rc", "prerelease": "rc"}],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/npm", {
+      "pkgRoot": "dist"
+    }],
+    ["@semantic-release/github", {
+      "assets": ["package.json", "package-lock.json"]
+    }]
+  ]
 }
