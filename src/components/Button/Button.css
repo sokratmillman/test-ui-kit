@@ -15,7 +15,7 @@
     line-height: var(--typo-control-size-s-line-height);
     font-family: var(--typo-control-font-family);
     padding: 0 10px;
-    background-color: var(--blue-gray-100);
+    background-color: rgb(107, 109, 158);
     color: var(--black-1900);
     transition:
       background-color var(--timing-delay-200) var(--timing-fn-default),
