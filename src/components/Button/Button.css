@@ -16,7 +16,7 @@
     font-family: var(--typo-control-font-family);
     padding: 0 10px;
     background-color: rgb(107, 109, 158);
-    color: var(--black-1900);
+    color: black;
     transition:
       background-color var(--timing-delay-200) var(--timing-fn-default),
       color var(--timing-delay-200) var(--timing-fn-default);
