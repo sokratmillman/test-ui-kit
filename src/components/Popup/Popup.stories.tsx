@@ -17,5 +17,5 @@ Default.argTypes = {
 };
 
 Default.args = {
-  disabled: false,
+  visible: false,
 };
