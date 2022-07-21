@@ -6,7 +6,7 @@
     box-sizing: border-box;
     height: var(--control-size-s-height);
     transition: border-color var(--timing-delay-200) var(--timing-fn-default);
-    box-shadow: inset 0 0 0 1px var(--blue-gray-700);
+    box-shadow: inset 0 0 0 1px blue;
   }
   
   .TextField[data-hovered="true"] {
