@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button } from './Button';
+import { MyButton } from './Button';
 
 export default {
   title: 'Button',
 };
 
 export function Default(props: any) {
-  return <Button {...props}>Button</Button>;
+  return <MyButton {...props}>Button</MyButton>;
 }
 
 Default.argTypes = {
