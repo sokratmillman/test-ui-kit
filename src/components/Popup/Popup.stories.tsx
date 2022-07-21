@@ -1,12 +1,12 @@
 import React from 'react';
-import { MyButton } from './Button';
+import { Popup } from './Popup';
 
 export default {
-  title: 'Button',
+  title: 'Popup',
 };
 
 export function Default(props: any) {
-  return <MyButton {...props}>Button</MyButton>;
+  return <Popup {...props}>Button</Popup>;
 }
 
 Default.argTypes = {
@@ -17,5 +17,5 @@ Default.argTypes = {
 };
 
 Default.args = {
-  disabled: false,
+  visible: false,
 };

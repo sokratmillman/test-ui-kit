@@ -3,7 +3,7 @@ import { useHover, useButton, mergeProps } from '@use-platform/react';
 
 import './Button.css';
 
-export function Button(props: { [x: string]: any; children: any; addonAfter: any }) {
+export function MyButton(props: { [x: string]: any; children: any; addonAfter: any }) {
   const { children, addonAfter, ...otherProps } = props;
   const buttonRef = useRef(null);
   const { isHovered, hoverProps } = useHover(otherProps);
@@ -25,4 +25,4 @@ export function Button(props: { [x: string]: any; children: any; addonAfter: any
     </button>
   );
 }
-export default Button;
+export default MyButton;
