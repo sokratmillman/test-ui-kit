@@ -4,7 +4,7 @@ import { useFocusTrap } from '@use-platform/react'
 
 import './Popup.css'
 
-export default function Popup(props: any) {
+export function Popup(props: any) {
   const { children, visible } = props
   const scopeRef = useRef(null)
 
@@ -21,3 +21,5 @@ export default function Popup(props: any) {
     document.body,
   )
 }
+
+export default Popup;
