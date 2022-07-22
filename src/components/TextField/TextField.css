@@ -10,7 +10,7 @@
   }
   
   .TextField[data-hovered="true"] {
-    background-color: var(--blue-gray-100);
+    background-color: rgb(116, 116, 210);
   }
   
   .TextField:focus-within {
