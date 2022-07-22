@@ -2,7 +2,7 @@
     display: inline-flex;
     align-items: center;
     padding: 0 12px;
-    border-radius: var(--border-radius-400);
+    border-radius: 20%;
     box-sizing: border-box;
     height: var(--control-size-s-height);
     transition: border-color var(--timing-delay-200) var(--timing-fn-default);
