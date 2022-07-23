@@ -1,6 +1,6 @@
 {
   "branches": [
-    {"name": "main", "channel": "next"}, 
+    {"name": "main"}, 
     {"name": "next", "channel": "pre/rc", "prerelease": "rc"}
     ],
   "plugins": [
@@ -12,6 +12,9 @@
     "@semantic-release/github",
     ["@semantic-release/git", {
       "assets": ["package.json", "package-lock.json"]
-    }]    
-  ]
+    }]
+  ],
+  "scripts": {
+    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
+  }
 }
