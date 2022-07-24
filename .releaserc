@@ -7,14 +7,15 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["@semantic-release/npm", {
+      "npmPublish": false
+    }],
+    ["@semantic-release/npm", {
+      "npmPublish": true,
       "pkgRoot": "dist/"
     }],
     "@semantic-release/github",
     ["@semantic-release/git", {
       "assets": ["package.json", "package-lock.json"]
     }]
-  ],
-  "scripts": {
-    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
-  }
+  ]
 }
